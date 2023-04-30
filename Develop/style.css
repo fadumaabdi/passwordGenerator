@@ -14,7 +14,8 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color: hsl(360, 91%, 36%);;
+  text-align: center;
 }
 
 .wrapper {
@@ -27,15 +28,15 @@ header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color: #fff;
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
-  border-radius: 5px;
-  border-width: 1px;
+  background-color: #fff;
+  border-radius: 18px;
+  border-width: 50px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: hsl(206, 17%, 28%);
+  color: hsl(0, 0%, 0%);
   font-size: 18px;
   margin: 0 auto;
   max-width: 800px;
@@ -76,8 +77,8 @@ header {
   border: none;
   background-color: hsl(360, 91%, 36%);
   border-radius: 25px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
-    0px;
+  border-bottom: 1px solid #000000;
+  box-shadow: 2px 2px 2px  hsl(0, 0%, 8%);
   color: hsl(0, 0%, 100%);
   display: inline-block;
   font-size: 22px;
@@ -87,6 +88,12 @@ header {
   text-align: center;
   cursor: pointer;
 }
+
+.btn:hover {
+  background-color:hsl(0, 0%, 0%);
+  border-bottom: 1px solid hsl(0, 34%, 47%);
+  box-shadow: 6px 6px 6px hsl(360, 91%, 36%);
+  transition: 0.2s;}
 
 button[disabled] {
   cursor: default;
