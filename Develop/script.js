@@ -2,12 +2,13 @@
 var generateBtn = document.querySelector("#generate");
 
 function generatePassword() {
-  // password character options
+  // password character
   var lowercaseChar = "abcdefghijklmnopqrstuvwxyz";
   var uppercaseChar = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   var numericChar = "0123456789";
   var specialChar = "!@#$%^&*()?.<\>|=+:;,[-_]";
   var options = "";
+
 
   console.log("You clicked the button!") //confirmation of click
   //prevent screen from refreshing after click

@@ -29,7 +29,6 @@ Below is a summary of the changes/additions that have been made to Javascript fi
 
 4. When all prompts are answered, you will be provided with a password on your screen which is generated according to your responses.
 
-5. The password will then clear when you press the "Generate Password" button again.
 
 ![Website Screenshot](passwordgeneratorscreenshot.png)
 
