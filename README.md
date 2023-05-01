@@ -33,7 +33,7 @@ Below is a summary of the changes/additions that have been made to Javascript fi
 ![Website Screenshot](passwordgeneratorscreenshot.png)
 
 # Links
-[Click here to access the deployed website.](https://fadumaabdi.github.io/passwordGenerator/)
+[Click here to access the deployed website.](https://fadumaabdi.github.io/passwordGenerator/index.html)
 
 [Click here to access the files on the github repository.](https://github.com/fadumaabdi/passwordGenerator)
 
